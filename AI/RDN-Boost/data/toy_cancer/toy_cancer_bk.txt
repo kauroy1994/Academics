@@ -1,0 +1,38 @@
+
+// Add this to indicate that first letter caps is constant and first letter lower-case is a variable.
+// Use quotes(") to make sure words beginning with lower case are considered as constants.
+// To totally reverse the syntax,(e.g. prolog format), set
+// usePrologVariables:true.
+useStdLogicVariables: true.
+
+
+// Set the mode for ILP/Tree search.
+// + indicates that this variable must already be grounded/appear before in the clause/tree.
+// - indicates that a new variable could be used. 
+mode: friends(+Person, -Person).
+mode: friends(-Person, +Person).
+
+mode: smokes(+Person).
+
+mode: cancer(+Person).
+
+// Specific to RDNBoost tree learning.
+// Look at the advanced documentation on webpage for more details
+setParam: treeDepth=4.
+setParam: nodeSize=2.
+setParam: numOfClauses=8.
+
+
+// Examples of aggregators. Currently needs creating these manually.
+// precompute1 is computed using all facts.
+// precomputek uses the facts and precomputed from precompute1 to precompute(k-1)
+precompute1: 
+num_of_smoking_friends(x, n) :- 
+    friends(x, y), // grounding x first
+    countUniqueBindings((friends(x,z)^smokes(z)), n).
+
+// modes for the precomputed fact
+// # indicates that the ILP rules/trees should use constants here.
+mode: num_of_smoking_friends(+Person, #Number).
+
+

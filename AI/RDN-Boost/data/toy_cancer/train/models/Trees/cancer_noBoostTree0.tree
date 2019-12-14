@@ -1,0 +1,3 @@
+(smokes(a) ^ ! => cancer(a, 4)).
+(num_of_smoking_friends(a, 2) ^ ! => cancer(a, 4)).
+(! => cancer(_, -4)).

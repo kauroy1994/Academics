@@ -1,0 +1,5 @@
+digraph RDN{
+0[style="filled" label="smokes(Person)" color="gray92"];
+1[style="filled" label="cancer(Person)" color="gray52"];
+0 -> 1[label="" style=solid];
+}

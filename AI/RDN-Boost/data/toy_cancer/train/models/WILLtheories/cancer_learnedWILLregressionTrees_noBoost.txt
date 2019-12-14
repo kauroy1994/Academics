@@ -1,0 +1,80 @@
+useStdLogicNotation: true.
+
+% maxTreeDepthInNodes                 = 10
+% maxTreeDepthInLiterals              = 30
+% maxNumberOfLiteralsAtAnInteriorNode = 2
+% maxFreeBridgersInBody               = 0
+% maxNumberOfClauses                  = 20
+% maxNodesToConsider                  = 1000
+% maxNodesToCreate                    = 10000
+% maxAcceptableNodeScoreToStop        = 0.000100
+% negPosRatio                         = 2.000
+% testNegPosRatio                     = 2.000
+
+
+
+%%%%%  WILL-Produced Tree #1 @ 13:47:29 8/3/10.  [Using 1,111,952 memory cells.]  %%%%%
+
+% FOR cancer(a):
+%   if ( smokes(a) )
+%   then return 4;  // std dev = 0.000, 3.000 (wgt'ed) examples reached here.  /* #pos=3 */
+%   else if ( num_of_smoking_friends(a, 2) )
+%   | then return 4;  // std dev = 0.000, 1.000 (wgt'ed) examples reached here.  /* #pos=1 */
+%   | else return -4;  // std dev = 0.000, 2.000 (wgt'ed) examples reached here.  /* #neg=2 */
+
+
+% Clauses:
+
+smokes(a) ^
+   ! => 
+   cancer(a, 4). // Clause #1.
+
+num_of_smoking_friends(a, 2) ^
+   ! => 
+   cancer(a, 4). // Clause #2.
+
+! => 
+   cancer(_, -4). // Clause #3.
+
+
+% The flattened versions of these clauses:
+
+flattened_smokes(A) ^
+   ! => 
+   cancer(A, 4). // Flattened version of clause #1.
+
+flattened_num_of_smoking_friends(A, 2) ^
+   ! => 
+   cancer(A, 4). // Flattened version of clause #2.
+
+flattened_! => 
+   cancer(Underscore, -4). // Flattened version of clause #3.
+
+
+% The unique flattened literals:
+%   smokes(A)
+%   num_of_smoking_friends(A, 2)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  Final call for computing score for cancer.  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+stepLength_tree1(1.0).
+
+cancer(a, total) :- // A general accessor. 
+   cancer(a, 1000000, total), !.
+cancer(a, total) :- waitHere("This should not fail", cancer(a, total)).
+
+cancer(a, treesToUse, total) :- // A tree-limited accessor (e.g., for tuning the number of trees to use).
+   getScore_cancer_tree1(a, treesToUse, total1),
+   total is total1,
+   !.
+cancer(a, treesToUse, total) :- waitHere("This should not fail", cancer(a, treesToUse, total)).
+
+getScore_cancer_tree1(a, treesToUse, 0.0) :- 1 > treesToUse, !.
+getScore_cancer_tree1(a, treesToUse, total1) :- cancer_tree1(a, total), stepLength_tree1(stepLen), total1 is total * stepLen.
+
+flattenedLiteralsInThisSetOfTrees(cancer, 2, [
+   smokes(A),
+   num_of_smoking_friends(A, 2)]).

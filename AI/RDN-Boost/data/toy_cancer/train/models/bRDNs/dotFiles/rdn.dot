@@ -1,0 +1,11 @@
+digraph RDN{
+0[style="filled" label="friends(Person,Person)" color="gray92"];
+1[style="filled" label="countUniqueBindings()" color="gray92"];
+2[style="filled" label="num_of_smoking_friends(Person,Number)" color="gray82"];
+0 -> 2[label="" style=dashed];
+1 -> 2[label="" style=dashed];
+3[style="filled" label="smokes(Person)" color="gray92"];
+4[style="filled" label="cancer(Person)" color="gray52"];
+2 -> 4[label="" style=solid];
+3 -> 4[label="" style=solid];
+}

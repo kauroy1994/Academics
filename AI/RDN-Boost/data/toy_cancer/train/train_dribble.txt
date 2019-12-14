@@ -1,0 +1,1137 @@
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = null.
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/train/train_pos.txt, ../data/toy_cancer/train/train_neg.txt, ../data/toy_cancer/train/train_bk.txt, ../data/toy_cancer/train/train_facts.txt]
+%  for N=0: args[N]=../data/toy_cancer/train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/train/train_pos.txt, ../data/toy_cancer/train/train_neg.txt, ../data/toy_cancer/train/train_bk.txt, ../data/toy_cancer/train/train_facts.txt]
+%  for N=1: args[N]=../data/toy_cancer/train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/train/train_pos.txt, ../data/toy_cancer/train/train_neg.txt, ../data/toy_cancer/train/train_bk.txt, ../data/toy_cancer/train/train_facts.txt]
+%  for N=2: args[N]=../data/toy_cancer/train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/train/train_pos.txt, ../data/toy_cancer/train/train_neg.txt, ../data/toy_cancer/train/train_bk.txt, ../data/toy_cancer/train/train_facts.txt]
+%  for N=3: args[N]=../data/toy_cancer/train/train_facts.txt
+% ProcessAnotherFile: directoryName = ../data/toy_cancer/train
+% Load '../toy_cancer_bk.txt'.
+% loadThisFile: directoryName = ../data/toy_cancer/train, newFileName = ../toy_cancer_bk.txt, file2load = ../data/toy_cancer/train/../toy_cancer_bk.txt
+
+% Reading file '../data/toy_cancer/train/../toy_cancer_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to standard-logic notation for variables; previous setting = uppercase
+
+% Switching to VarIndicator = lowercase.
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase (Waiting 1 seconds.) *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase (Waiting 1 seconds.) *****
+
+Starting a search with strategy = edu.wisc.cs.stdAIsearch.BestFirstSearch@95c083.
+% LoadAllModes() called.  Currently loaded modes: []
+% Load library file 'modes_arithmeticInLogic'.
+% Reading library 'modes_arithmeticInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'arithmeticInLogic'.
+% Reading library 'arithmeticInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% Reading library 'comparisonInLogic'.
+% Importing 'arithmeticInLogic' also loaded these libraries: [comparisonInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_arithmeticInLogic'.
+% Reading library 'inlines_arithmeticInLogic'.
+% Importing 'inlines_arithmeticInLogic' also loaded these libraries: [arithmeticInLogic, comparisonInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_comparisonInLogic'.
+% Reading library 'inlines_comparisonInLogic'.
+% Importing 'inlines_comparisonInLogic' also loaded these libraries: [arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_arithmeticInLogic' also loaded these libraries: [arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, inlines_comparisonInLogic]
+% Load library file 'modes_comparisonInLogic'.
+% Reading library 'modes_comparisonInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_comparisonInLogic'.
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_comparisonInLogic' also loaded these libraries: [arithmeticInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, inlines_comparisonInLogic]
+% Load library file 'modes_differentInLogic'.
+% Reading library 'modes_differentInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'differentInLogic'.
+% Reading library 'differentInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% Importing 'differentInLogic' also loaded these libraries: [arithmeticInLogic, modes_comparisonInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, inlines_comparisonInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_differentInLogic'.
+% Reading library 'inlines_differentInLogic'.
+% Importing 'inlines_differentInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_comparisonInLogic]
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_differentInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, comparisonInLogic, modes_arithmeticInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic]
+% Load library file 'modes_listsInLogic'.
+% Reading library 'modes_listsInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'listsInLogic'.
+% Reading library 'listsInLogic'.
+% Importing 'listsInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, comparisonInLogic, modes_arithmeticInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic, modes_differentInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_listsInLogic'.
+% Reading library 'inlines_listsInLogic'.
+% Importing 'inlines_listsInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, listsInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic, modes_differentInLogic]
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_listsInLogic' also loaded these libraries: [modes_comparisonInLogic, inlines_listsInLogic, listsInLogic, arithmeticInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, differentInLogic, modes_differentInLogic, inlines_comparisonInLogic, inlines_differentInLogic]
+% LoadAllLibraries() called.  Currently loaded libraries: [modes_listsInLogic, modes_comparisonInLogic, inlines_listsInLogic, listsInLogic, arithmeticInLogic, comparisonInLogic, modes_arithmeticInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic, modes_differentInLogic]
+% Have read 4 examples from '../data/toy_cancer/train' [../data/toy_cancer/train/train*].
+% Have read 2 examples from '../data/toy_cancer/train' [../data/toy_cancer/train/train*].
+
+***** Warning: % Should not set minPosCoverage (10.0) to more than the total weight on the positive examples (4.0).  Will use the maximum possible value. *****
+
+% Precompute #1's requests: 
+%   num_of_smoking_friends(x, n) :- friends(x, y), countUniqueBindings(friends(x, z), smokes(z), n)
+% Loading: ../data/toy_cancer/train/precomputed1.txt
+% Read an additional 6 facts from java.io.FileReader@21f8c6df.
+
+% Learn model for: cancer
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+***** Warning: % Have only 6 positive examples, so cannot choose 42 of them. *****
+
+
+% LearnOneClause Parameters:
+%   Targets (1):
+%    cancer(+Person)
+%  Modes (40):
+%    friends(+Person, -Person),
+%    friends(-Person, +Person),
+%    smokes(+Person),
+%    num_of_smoking_friends(+Person, #Number),
+%    addList(+willList, #willNumber),
+%    multiplyList(+willList, #willNumber),
+%    abs(+willNumber, &willNumber),
+%    minus(+willNumber, &willNumber),
+%    minus(+willNumber, +willNumber, &willNumber),
+%    plus(+willNumber, +willNumber, &willNumber),
+%    mult(+willNumber, +willNumber, &willNumber),
+%    div(+willNumber, +willNumber, &willNumber),
+%    allNumbers(+willList),
+%    positiveNumber(+willNumber),
+%    negativeNumber(+willNumber),
+%    in0toDot001(+willNumber),
+%    in0toDot01(+willNumber),
+%    in0toDot1(+willNumber),
+%    in0to1(+willNumber),
+%    in0to10(+willNumber),
+%    in0to100(+willNumber),
+%    in0to1000(+willNumber),
+%    equalWithTolerance(+willNumber, +willNumber, &willNumber),
+%    greaterOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    smallerOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    isaEqualTolerance(+willNumber),
+%    lessThan(+willNumber, +willNumber),
+%    greaterThan(+willNumber, +willNumber),
+%    lessThanOrEqual(+willNumber, +willNumber),
+%    greaterThanOrEqual(+willNumber, +willNumber),
+%    inBetweenOO(+willNumber, +willNumber, +willNumber),
+%    inBetweenCO(+willNumber, +willNumber, +willNumber),
+%    inBetweenOC(+willNumber, +willNumber, +willNumber),
+%    inBetweenCC(+willNumber, +willNumber, +willNumber),
+%    memberOfList(+willAnything, +willList),
+%    firstInList(+willList, &willAnything),
+%    restOfList(+willList, &willList),
+%    positionInList(+willAnything, +willList, &willNumber),
+%    nthInList(+willNumber, +willList, &willAnything),
+%    lengthOfList(+willList, &willNumber)
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% The best node found: smokes(a) => cancer(a).  [E(var) = 0.1111, covers 3.0/6.0 examples] /* #pos=3 */
+%   Creating a FALSE-branch interior node with wgtedCountFalseBranchPos = 3.0
+%      addToQueueOfTreeStructuredLearningTasks (level=1; score=-0.074074)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 1 and with score = -0.074074) into the LAST position (#1) in the search queue.
+
+***** Warning: % Have only 3 positive examples, so cannot choose 6 of them. *****
+
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% The best node found: num_of_smoking_friends(a, 2) => cancer(a).  [E(var) = 0.0000, covers 1.0/3.0 examples] /* #pos=1 */
+
+%%%%%  WILL-Produced Tree #1 @ 11:11:09 8/4/10.  [Using 1,097,176 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 1 trees is 213 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #2 @ 11:11:09 8/4/10.  [Using 1,117,800 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 2 trees is 284 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #3 @ 11:11:09 8/4/10.  [Using 1,137,576 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 3 trees is 351 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #4 @ 11:11:09 8/4/10.  [Using 1,074,752 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 4 trees is 403 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #5 @ 11:11:09 8/4/10.  [Using 1,094,528 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 5 trees is 464 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #6 @ 11:11:10 8/4/10.  [Using 1,113,712 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 6 trees is 516 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #7 @ 11:11:10 8/4/10.  [Using 1,133,488 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 7 trees is 566 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #8 @ 11:11:10 8/4/10.  [Using 1,080,112 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 8 trees is 614 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #9 @ 11:11:10 8/4/10.  [Using 1,100,112 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 9 trees is 656 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #10 @ 11:11:10 8/4/10.  [Using 1,119,888 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Saving model in: ../data/toy_cancer/train/models/cancer.model
+% Time taken to learn 10 trees is 699 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #11 @ 11:11:10 8/4/10.  [Using 1,141,464 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 11 trees is 740 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #12 @ 11:11:10 8/4/10.  [Using 1,084,880 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 12 trees is 780 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #13 @ 11:11:10 8/4/10.  [Using 1,104,776 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 13 trees is 818 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #14 @ 11:11:10 8/4/10.  [Using 1,124,408 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 14 trees is 888 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #15 @ 11:11:10 8/4/10.  [Using 1,144,184 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 15 trees is 928 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #16 @ 11:11:10 8/4/10.  [Using 1,089,280 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 16 trees is 970 milliseconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #17 @ 11:11:10 8/4/10.  [Using 1,109,056 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 17 trees is 1.014 seconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #18 @ 11:11:10 8/4/10.  [Using 1,128,632 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 18 trees is 1.054 seconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #19 @ 11:11:10 8/4/10.  [Using 1,148,728 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Time taken to learn 19 trees is 1.098 seconds.
+
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+% Kept 4 of the 4 positive examples.
+% Kept (via sampling with replacement) 2 of the 2 negative examples.
+% Dataset size: 6
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1.797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1.797693135e+308) into the LAST position (#1) in the search queue.
+
+%  Target #0 being learned: 'cancer(a)',
+%  with argument types: [a[+Person]]
+%   typeList:   [signature = [Const], types = [+Person]]
+%   varList:    [a]
+%   specsList:  [a[+Person]]
+% targetArgSpecs: [a[+Person]]
+%   argSpec: a[+Person]
+
+% target           = cancer(a)
+%   targetArgSpecs = [a[+Person]]
+%   requiredBodyVariablesInTarget: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+%%%%%  WILL-Produced Tree #20 @ 11:11:10 8/4/10.  [Using 1,094,016 memory cells.]  %%%%%
+
+
+
+% Memory usage by WILLSetup:
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+
+% Memory usage by LearnBoostedRDN:
+%  |egs|                = 6
+%  |theseFlattenedLits| = 2
+% Saving model in: ../data/toy_cancer/train/models/cancer.model
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  Final call for computing score for cancer.  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+stepLength_tree1(1.0).
+stepLength_tree2(1.0).
+stepLength_tree3(1.0).
+stepLength_tree4(1.0).
+stepLength_tree5(1.0).
+stepLength_tree6(1.0).
+stepLength_tree7(1.0).
+stepLength_tree8(1.0).
+stepLength_tree9(1.0).
+stepLength_tree10(1.0).
+stepLength_tree11(1.0).
+stepLength_tree12(1.0).
+stepLength_tree13(1.0).
+stepLength_tree14(1.0).
+stepLength_tree15(1.0).
+stepLength_tree16(1.0).
+stepLength_tree17(1.0).
+stepLength_tree18(1.0).
+stepLength_tree19(1.0).
+stepLength_tree20(1.0).
+
+cancer(a, total) :- // A general accessor. 
+   cancer(a, 1000000, total), !.
+cancer(a, total) :- waitHere("This should not fail", cancer(a, total)).
+
+cancer(a, treesToUse, total) :- // A tree-limited accessor (e.g., for tuning the number of trees to use).
+   getScore_cancer_tree1(a, treesToUse, total1),
+   getScore_cancer_tree2(a, treesToUse, total2),
+   getScore_cancer_tree3(a, treesToUse, total3),
+   getScore_cancer_tree4(a, treesToUse, total4),
+   getScore_cancer_tree5(a, treesToUse, total5),
+   getScore_cancer_tree6(a, treesToUse, total6),
+   getScore_cancer_tree7(a, treesToUse, total7),
+   getScore_cancer_tree8(a, treesToUse, total8),
+   getScore_cancer_tree9(a, treesToUse, total9),
+   getScore_cancer_tree10(a, treesToUse, total10),
+   getScore_cancer_tree11(a, treesToUse, total11),
+   getScore_cancer_tree12(a, treesToUse, total12),
+   getScore_cancer_tree13(a, treesToUse, total13),
+   getScore_cancer_tree14(a, treesToUse, total14),
+   getScore_cancer_tree15(a, treesToUse, total15),
+   getScore_cancer_tree16(a, treesToUse, total16),
+   getScore_cancer_tree17(a, treesToUse, total17),
+   getScore_cancer_tree18(a, treesToUse, total18),
+   getScore_cancer_tree19(a, treesToUse, total19),
+   getScore_cancer_tree20(a, treesToUse, total20),
+   total is total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8 + total9 + total10 + total11 + total12 + total13 + total14 + total15 + total16 + total17 + total18 + total19 + total20,
+   !.
+cancer(a, treesToUse, total) :- waitHere("This should not fail", cancer(a, treesToUse, total)).
+
+getScore_cancer_tree1(a, treesToUse, 0.0) :- 1 > treesToUse, !.
+getScore_cancer_tree1(a, treesToUse, total1) :- cancer_tree1(a, total), stepLength_tree1(stepLen), total1 is total * stepLen.
+
+getScore_cancer_tree2(a, treesToUse, 0.0) :- 2 > treesToUse, !.
+getScore_cancer_tree2(a, treesToUse, total2) :- cancer_tree2(a, total), stepLength_tree2(stepLen), total2 is total * stepLen.
+
+getScore_cancer_tree3(a, treesToUse, 0.0) :- 3 > treesToUse, !.
+getScore_cancer_tree3(a, treesToUse, total3) :- cancer_tree3(a, total), stepLength_tree3(stepLen), total3 is total * stepLen.
+
+getScore_cancer_tree4(a, treesToUse, 0.0) :- 4 > treesToUse, !.
+getScore_cancer_tree4(a, treesToUse, total4) :- cancer_tree4(a, total), stepLength_tree4(stepLen), total4 is total * stepLen.
+
+getScore_cancer_tree5(a, treesToUse, 0.0) :- 5 > treesToUse, !.
+getScore_cancer_tree5(a, treesToUse, total5) :- cancer_tree5(a, total), stepLength_tree5(stepLen), total5 is total * stepLen.
+
+getScore_cancer_tree6(a, treesToUse, 0.0) :- 6 > treesToUse, !.
+getScore_cancer_tree6(a, treesToUse, total6) :- cancer_tree6(a, total), stepLength_tree6(stepLen), total6 is total * stepLen.
+
+getScore_cancer_tree7(a, treesToUse, 0.0) :- 7 > treesToUse, !.
+getScore_cancer_tree7(a, treesToUse, total7) :- cancer_tree7(a, total), stepLength_tree7(stepLen), total7 is total * stepLen.
+
+getScore_cancer_tree8(a, treesToUse, 0.0) :- 8 > treesToUse, !.
+getScore_cancer_tree8(a, treesToUse, total8) :- cancer_tree8(a, total), stepLength_tree8(stepLen), total8 is total * stepLen.
+
+getScore_cancer_tree9(a, treesToUse, 0.0) :- 9 > treesToUse, !.
+getScore_cancer_tree9(a, treesToUse, total9) :- cancer_tree9(a, total), stepLength_tree9(stepLen), total9 is total * stepLen.
+
+getScore_cancer_tree10(a, treesToUse, 0.0) :- 10 > treesToUse, !.
+getScore_cancer_tree10(a, treesToUse, total10) :- cancer_tree10(a, total), stepLength_tree10(stepLen), total10 is total * stepLen.
+
+getScore_cancer_tree11(a, treesToUse, 0.0) :- 11 > treesToUse, !.
+getScore_cancer_tree11(a, treesToUse, total11) :- cancer_tree11(a, total), stepLength_tree11(stepLen), total11 is total * stepLen.
+
+getScore_cancer_tree12(a, treesToUse, 0.0) :- 12 > treesToUse, !.
+getScore_cancer_tree12(a, treesToUse, total12) :- cancer_tree12(a, total), stepLength_tree12(stepLen), total12 is total * stepLen.
+
+getScore_cancer_tree13(a, treesToUse, 0.0) :- 13 > treesToUse, !.
+getScore_cancer_tree13(a, treesToUse, total13) :- cancer_tree13(a, total), stepLength_tree13(stepLen), total13 is total * stepLen.
+
+getScore_cancer_tree14(a, treesToUse, 0.0) :- 14 > treesToUse, !.
+getScore_cancer_tree14(a, treesToUse, total14) :- cancer_tree14(a, total), stepLength_tree14(stepLen), total14 is total * stepLen.
+
+getScore_cancer_tree15(a, treesToUse, 0.0) :- 15 > treesToUse, !.
+getScore_cancer_tree15(a, treesToUse, total15) :- cancer_tree15(a, total), stepLength_tree15(stepLen), total15 is total * stepLen.
+
+getScore_cancer_tree16(a, treesToUse, 0.0) :- 16 > treesToUse, !.
+getScore_cancer_tree16(a, treesToUse, total16) :- cancer_tree16(a, total), stepLength_tree16(stepLen), total16 is total * stepLen.
+
+getScore_cancer_tree17(a, treesToUse, 0.0) :- 17 > treesToUse, !.
+getScore_cancer_tree17(a, treesToUse, total17) :- cancer_tree17(a, total), stepLength_tree17(stepLen), total17 is total * stepLen.
+
+getScore_cancer_tree18(a, treesToUse, 0.0) :- 18 > treesToUse, !.
+getScore_cancer_tree18(a, treesToUse, total18) :- cancer_tree18(a, total), stepLength_tree18(stepLen), total18 is total * stepLen.
+
+getScore_cancer_tree19(a, treesToUse, 0.0) :- 19 > treesToUse, !.
+getScore_cancer_tree19(a, treesToUse, total19) :- cancer_tree19(a, total), stepLength_tree19(stepLen), total19 is total * stepLen.
+
+getScore_cancer_tree20(a, treesToUse, 0.0) :- 20 > treesToUse, !.
+getScore_cancer_tree20(a, treesToUse, total20) :- cancer_tree20(a, total), stepLength_tree20(stepLen), total20 is total * stepLen.
+
+flattenedLiteralsInThisSetOfTrees(cancer, 2, [
+   smokes(A),
+   num_of_smoking_friends(A, 2)]).
+% Time taken to learn model for 'cancer': 1.177 seconds.
+% Saving model in: ../data/toy_cancer/train/models/cancer.model
+
+% Total learning time (20 trees): 3.450 seconds.

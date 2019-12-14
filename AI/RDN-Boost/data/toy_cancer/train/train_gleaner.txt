@@ -1,0 +1,91 @@
+////// Learned from a dataset containing 6 positive (6.0 weighted sum) and 0 negative (0.0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 5.005, the maximal (wgt'ed) NEG coverage = 0.499, and the minimal (wgt'ed) precision = 0.000 (using m = 0.1)
+
+useStdLogicNotation: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #1, null' and covering 1.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.164, precision = 0.909, and F1 = 0.278 - learned after 10 total and 6 acceptable nodes.  Node score = -0.20000202999999997
+
+ FOR cancer(a) IF (smokes(a), num_of_smoking_friends(a, 2)) THEN output = 0.858149 ELSE output = 0.458149;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #2, null' and covering 1.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.323, precision = 0.909, and F1 = 0.476 - learned after 4 total and 3 acceptable nodes.  Node score = -1.03E-6
+
+ FOR cancer(a) IF (num_of_smoking_friends(a, 2)) THEN output = 0.858149 ELSE output = -0.141851;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #1, null' and covering 3.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.492, precision = 0.968, and F1 = 0.652 - learned after 4 total and 0 acceptable nodes.  Node score = -0.11111212111111128
+
+ FOR cancer(a) IF (smokes(a)) THEN output = 0.858149 ELSE output = 0.191482;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #2, null' and covering 2.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.645, precision = 0.952, and F1 = 0.769 - learned after 5 total and 4 acceptable nodes.  Node score = -1.03E-6
+
+ FOR cancer(a) IF (num_of_smoking_friends(a, 1)) THEN output = -0.141851 ELSE output = 0.858149;
+
+// Best in (weighted) recall bin #13, (0.65, 0.7], from 'outerLoop #1, null' and covering 4.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.656, precision = 0.976, and F1 = 0.784 - learned after 5 total and 1 acceptable nodes.  Node score = -0.16666769666666667
+
+ FOR cancer(a) IF (num_of_smoking_friends(a, 1)) THEN output = 0.358149 ELSE output = 0.858149;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #2, null' and covering 3.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.968, precision = 0.968, and F1 = 0.968 - learned after 1 total and 0 acceptable nodes.  Node score = -Infinity
+
+ FOR cancer(a) output = 0.191482;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #1, null' and covering 1.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.164, precision = 0.909, and F1 = 0.278 - learned after 10 total and 6 acceptable nodes.  Node score = -0.20000202999999997
+
+ FOR cancer(a) IF (smokes(a), num_of_smoking_friends(a, 2)) THEN output = 0.858149 ELSE output = 0.458149;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #1, null' and covering 2.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.328, precision = 0.952, and F1 = 0.488 - learned after 6 total and 2 acceptable nodes.  Node score = -0.16666769666666667
+
+ FOR cancer(a) IF (num_of_smoking_friends(a, 2)) THEN output = 0.858149 ELSE output = 0.358149;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #1, null' and covering 3.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.492, precision = 0.968, and F1 = 0.652 - learned after 4 total and 0 acceptable nodes.  Node score = -0.11111212111111128
+
+ FOR cancer(a) IF (smokes(a)) THEN output = 0.858149 ELSE output = 0.191482;
+
+// Best in (weighted) recall bin #13, (0.65, 0.7], from 'outerLoop #1, null' and covering 4.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.656, precision = 0.976, and F1 = 0.784 - learned after 5 total and 1 acceptable nodes.  Node score = -0.16666769666666667
+
+ FOR cancer(a) IF (num_of_smoking_friends(a, 1)) THEN output = 0.358149 ELSE output = 0.858149;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #2, null' and covering 1.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.323, precision = 0.909, and F1 = 0.476 - learned after 4 total and 3 acceptable nodes.  Node score = -1.03E-6
+
+ FOR cancer(a) IF (num_of_smoking_friends(a, 2)) THEN output = 0.858149 ELSE output = -0.141851;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #2, null' and covering 2.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.645, precision = 0.952, and F1 = 0.769 - learned after 5 total and 4 acceptable nodes.  Node score = -1.03E-6
+
+ FOR cancer(a) IF (num_of_smoking_friends(a, 1)) THEN output = -0.141851 ELSE output = 0.858149;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #2, null' and covering 3.0 wgt'ed positive and 0.0 wgt'ed negative examples:
+//    Wgt'ed recall = 0.968, precision = 0.968, and F1 = 0.968 - learned after 1 total and 0 acceptable nodes.  Node score = -Infinity
+
+ FOR cancer(a) output = 0.191482;
+

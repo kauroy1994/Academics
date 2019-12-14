@@ -1,0 +1,10 @@
+0.7390310037249794 1
+0.7390310037249794 1
+0.5102331362718224 0
+0.5102331362718224 0
+--- Writing PR file ../data/toy_cancer/test/AUC/aucTemp.txt.pr ---
+--- Writing standardized PR file ../data/toy_cancer/test/AUC/aucTemp.txt.spr ---
+--- Writing ROC file ../data/toy_cancer/test/AUC/aucTemp.txt.roc ---
+Area Under the Curve for Precision - Recall is 1.0
+Area Under the Curve for ROC is 1.0
+

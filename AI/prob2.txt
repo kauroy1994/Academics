@@ -1,0 +1,10 @@
+f(b) :- not m(a)
+not f(c) :- not m(a)
+not t(b) :- not m(b)
+not f(b) :- not m(b)
+t(a) :- not m(c)
+t(b) :- not m(c)
+not m(a) :- m(c)
+not m(c) :- m(b)
+not m(b) :- m(a)
+

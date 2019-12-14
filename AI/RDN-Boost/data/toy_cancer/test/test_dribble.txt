@@ -1,0 +1,151 @@
+
+% Creating string handler #2.
+
+
+***** Warning: Do you really want to make string handler #2? *****
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = null.
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/test/test_pos.txt, ../data/toy_cancer/test/test_neg.txt, ../data/toy_cancer/test/test_bk.txt, ../data/toy_cancer/test/test_facts.txt]
+%  for N=0: args[N]=../data/toy_cancer/test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/test/test_pos.txt, ../data/toy_cancer/test/test_neg.txt, ../data/toy_cancer/test/test_bk.txt, ../data/toy_cancer/test/test_facts.txt]
+%  for N=1: args[N]=../data/toy_cancer/test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/test/test_pos.txt, ../data/toy_cancer/test/test_neg.txt, ../data/toy_cancer/test/test_bk.txt, ../data/toy_cancer/test/test_facts.txt]
+%  for N=2: args[N]=../data/toy_cancer/test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[../data/toy_cancer/test/test_pos.txt, ../data/toy_cancer/test/test_neg.txt, ../data/toy_cancer/test/test_bk.txt, ../data/toy_cancer/test/test_facts.txt]
+%  for N=3: args[N]=../data/toy_cancer/test/test_facts.txt
+% ProcessAnotherFile: directoryName = ../data/toy_cancer/test
+% Load '../toy_cancer_bk.txt'.
+% loadThisFile: directoryName = ../data/toy_cancer/test, newFileName = ../toy_cancer_bk.txt, file2load = ../data/toy_cancer/test/../toy_cancer_bk.txt
+
+% Reading file '../data/toy_cancer/test/../toy_cancer_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to standard-logic notation for variables; previous setting = uppercase
+
+% Switching to VarIndicator = lowercase.
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase (Waiting 1 seconds.) *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase (Waiting 1 seconds.) *****
+
+Starting a search with strategy = edu.wisc.cs.stdAIsearch.BestFirstSearch@3f9f3736.
+% LoadAllModes() called.  Currently loaded modes: []
+% Load library file 'modes_arithmeticInLogic'.
+% Reading library 'modes_arithmeticInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'arithmeticInLogic'.
+% Reading library 'arithmeticInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% Reading library 'comparisonInLogic'.
+% Importing 'arithmeticInLogic' also loaded these libraries: [comparisonInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_arithmeticInLogic'.
+% Reading library 'inlines_arithmeticInLogic'.
+% Importing 'inlines_arithmeticInLogic' also loaded these libraries: [arithmeticInLogic, comparisonInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_comparisonInLogic'.
+% Reading library 'inlines_comparisonInLogic'.
+% Importing 'inlines_comparisonInLogic' also loaded these libraries: [arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_arithmeticInLogic' also loaded these libraries: [arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, inlines_comparisonInLogic]
+% Load library file 'modes_comparisonInLogic'.
+% Reading library 'modes_comparisonInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_comparisonInLogic'.
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_comparisonInLogic' also loaded these libraries: [arithmeticInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, inlines_comparisonInLogic]
+% Load library file 'modes_differentInLogic'.
+% Reading library 'modes_differentInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'differentInLogic'.
+% Reading library 'differentInLogic'.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'comparisonInLogic'.
+% Importing 'differentInLogic' also loaded these libraries: [arithmeticInLogic, modes_comparisonInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, inlines_comparisonInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_differentInLogic'.
+% Reading library 'inlines_differentInLogic'.
+% Importing 'inlines_differentInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_comparisonInLogic]
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_differentInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, comparisonInLogic, modes_arithmeticInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic]
+% Load library file 'modes_listsInLogic'.
+% Reading library 'modes_listsInLogic'.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+% ProcessAnotherFile: directoryName = null
+% Load library file 'listsInLogic'.
+% Reading library 'listsInLogic'.
+% Importing 'listsInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, comparisonInLogic, modes_arithmeticInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic, modes_differentInLogic]
+% ProcessAnotherFile: directoryName = null
+% Load library file 'inlines_listsInLogic'.
+% Reading library 'inlines_listsInLogic'.
+% Importing 'inlines_listsInLogic' also loaded these libraries: [modes_comparisonInLogic, arithmeticInLogic, listsInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic, modes_differentInLogic]
+
+% Switching to VarIndicator = lowercase.
+% Importing 'modes_listsInLogic' also loaded these libraries: [modes_comparisonInLogic, inlines_listsInLogic, listsInLogic, arithmeticInLogic, modes_arithmeticInLogic, comparisonInLogic, inlines_arithmeticInLogic, differentInLogic, modes_differentInLogic, inlines_comparisonInLogic, inlines_differentInLogic]
+% LoadAllLibraries() called.  Currently loaded libraries: [modes_listsInLogic, modes_comparisonInLogic, inlines_listsInLogic, listsInLogic, arithmeticInLogic, comparisonInLogic, modes_arithmeticInLogic, inlines_arithmeticInLogic, differentInLogic, inlines_differentInLogic, inlines_comparisonInLogic, modes_differentInLogic]
+% Have read 3 examples from '../data/toy_cancer/test' [../data/toy_cancer/test/test*].
+% Have read 2 examples from '../data/toy_cancer/test' [../data/toy_cancer/test/test*].
+
+***** Warning: % Should not set minPosCoverage (10.0) to more than the total weight on the positive examples (3.0).  Will use the maximum possible value. *****
+
+% Precompute #1's requests: 
+%   num_of_smoking_friends(x, n) :- friends(x, y), countUniqueBindings(friends(x, z), smokes(z), n)
+% Loading: ../data/toy_cancer/test/precomputed1.txt
+% Read an additional 5 facts from java.io.FileReader@560c3014.
+% Initial size of testset negs: 2 for cancer
+% Final size of negs: 2 for cancer
+% No sampling needed during inference.
+% Pos #1: 'cancer(Zod)' prob = 0.739031
+% Pos #2: 'cancer(Xena)' prob = 0.739031
+% Pos #3: 'cancer(Yoda)' prob = 0.739031
+% Neg #1: 'cancer(Voldemort)' prob = 0.510233
+% Neg #2: 'cancer(Watson)' prob = 0.510233
+% aucFile: ../data/toy_cancer/test/AUC/aucTemp.txt
+
+% Running command: java -jar ../auc.jar ../data/toy_cancer/test/AUC/aucTemp.txt list 0.0
+% WAITING FOR command: java -jar ../auc.jar ../data/toy_cancer/test/AUC/aucTemp.txt list 0.0
+% DONE WAITING FOR command: java -jar ../auc.jar ../data/toy_cancer/test/AUC/aucTemp.txt list 0.0
+
+% (Arithmetic) Mean Probability Assigned to Correct Output Class: 3.20/5.00 = 0.639325
+
+%   AUC ROC   = 1.000000
+%   AUC PR    = 1.000000
+%   Precision = 0.600000 at threshold = 0.500
+%   Recall    = 1.000000
+%   F1        = 0.750000
+
+% Total inference time (20 trees): 2.244 seconds.
